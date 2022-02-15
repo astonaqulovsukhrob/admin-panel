@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+.main {
+  min-height: 90vh;
+}
+
+#components-layout-demo-custom-trigger .trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #11161b;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+.logo h2 {
+  color: #fff;
+  margin-left: 12px;
+}
+
+img {
+  height: 40px;
+}
+
+.app {
+  color: white;
+  margin-left: 14px;
+}
+
+.ant-form-item-label > label::after {
+  content: none;
+}
+
+.ant-form-item-label .anticon svg {
+  font-size: 1.5rem;
+}
+
+.man {
+  text-align: center !important;
+}
+
+canvas {
+  width: 92% !important;
+  height: 80vh !important;
+  -webkit-box-shadow: 1px 4px 8px 0px rgba(34, 60, 80, 0.2) !important;
+  -moz-box-shadow: 1px 4px 8px 0px rgba(34, 60, 80, 0.2) !important;
+  box-shadow: 1px 4px 8px 0px rgba(34, 60, 80, 0.2) !important;
+  padding: 2rem;
+  border-radius: 5px !important;
+}
+
+.ant-table table {
+  width: 95% !important;
+  margin: auto;
+}
+
+.success {
+  background: #198754;
+  color: white;
+}
+
+.success:hover {
+  background: #48b884 !important;
+  color: white !important;
+  border-color: #2f9b69 !important;
+}
+
+.tabs {
+  position: absolute;
+  bottom: 0;
+}
+
+.ant-tabs {
+  flex-direction: column-reverse !important;
+}
